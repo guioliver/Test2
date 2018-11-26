@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+       <HTML LANG ="PT-BR">
+	   <META CHARSET="UTF-8">
+	   <HEAD> 
+	   </HEAD>
+	   <BODY>
+	         <FORM NAME="CADASTRO" METHOD="POST" ACTION="form.php">
+			 <LABEL FOR="NOME_ID"> NOME:</LABEL>
+			 <BR>
+			 <INPUT TYPE="TEXT" REQUIRED="TRUE" NAME="NOME"> 
+			 <BR>
+			 <BR>
+			 SOBRENOME:<BR>
+			 <INPUT TYPE="TEXT" NAME="SOBRENOME">
+			 <BR>
+			 <BR>
+			 <INPUT TYPE="RADIO" NAME="SEXO" VALUE="M"> MASCULINO
+             <BR>			 
+			 <INPUT TYPE="RADIO" NAME="SEXO" VALUE="F"> FEMININO
+			 <BR>
+			 UF<BR>
+			 <SELECT NAME="UF">
+			 <OPTION VALUE ="SP"> SÃO PAULO </OPTION>
+			 <OPTION VALUE ="RJ"> RIO DE JANEIRO </OPTION>
+			 </OPTGROUP>
+			 </SELECT>
+			 <BR>
+			 <BR>
+			 DATA DE NASCIMENTO <BR>
+			 <BR>
+			 <INPUT TYPE ="DATE" NAME="DATA">
+			 <BR>
+			 <BR>
+			 <INPUT TYPE="SUBMIT" VALUE="ENVIAR">
+            			 
+			 </FORM>
